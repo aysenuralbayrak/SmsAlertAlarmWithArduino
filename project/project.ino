@@ -187,7 +187,7 @@ void sendSms(String message,int beepNum){
   WaitAndRead(35);
   beep(beepNum);
   Serial.print("AT+CMGS=\"");
-  Serial.print("+905077664818"); //mesaj göndermek istediğiniz numarayı yazınız.
+  Serial.print("+900000000000"); //write the phone number
   Serial.print("\"\r");
   delay(1000);
   beep(beepNum);
